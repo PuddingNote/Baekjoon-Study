@@ -1,11 +1,2 @@
-﻿  25206.cpp
-C:\Users\차늠\Desktop\Baekjoon\Baekjoon-Study\Baekjoon Study\Baekjoon Study\25206.cpp(23,63): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\차늠\Desktop\Baekjoon\Baekjoon-Study\Baekjoon Study\Baekjoon Study\25206.cpp(24,63): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\차늠\Desktop\Baekjoon\Baekjoon-Study\Baekjoon Study\Baekjoon Study\25206.cpp(25,63): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\차늠\Desktop\Baekjoon\Baekjoon-Study\Baekjoon Study\Baekjoon Study\25206.cpp(26,63): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\차늠\Desktop\Baekjoon\Baekjoon-Study\Baekjoon Study\Baekjoon Study\25206.cpp(27,63): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\차늠\Desktop\Baekjoon\Baekjoon-Study\Baekjoon Study\Baekjoon Study\25206.cpp(28,63): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\차늠\Desktop\Baekjoon\Baekjoon-Study\Baekjoon Study\Baekjoon Study\25206.cpp(29,63): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\차늠\Desktop\Baekjoon\Baekjoon-Study\Baekjoon Study\Baekjoon Study\25206.cpp(30,63): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\차늠\Desktop\Baekjoon\Baekjoon-Study\Baekjoon Study\Baekjoon Study\25206.cpp(31,63): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  27323.cpp
   Baekjoon Study.vcxproj -> C:\Users\차늠\Desktop\Baekjoon\Baekjoon-Study\Baekjoon Study\Debug\Baekjoon Study.exe
