@@ -240,10 +240,13 @@
     <ClCompile Include="24313.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2231cpp.cpp">
+    <ClCompile Include="2231.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="11650.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="19532.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
