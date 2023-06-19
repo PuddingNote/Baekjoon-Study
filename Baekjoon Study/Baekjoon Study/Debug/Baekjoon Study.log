@@ -1,8 +1,0 @@
-﻿  1269.cpp
-C:\Users\User\Desktop\Baekjoon\Baekjoon-Study\Baekjoon Study\Baekjoon Study\1269.cpp(57,23): warning C4805: '==': 연산에 'unsigned int' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
-C:\Users\User\Desktop\Baekjoon\Baekjoon-Study\Baekjoon Study\Baekjoon Study\1269.cpp(73,1): error C2059: 구문 오류: 'if'
-C:\Users\User\Desktop\Baekjoon\Baekjoon-Study\Baekjoon Study\Baekjoon Study\1269.cpp(74,1): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
-C:\Users\User\Desktop\Baekjoon\Baekjoon-Study\Baekjoon Study\Baekjoon Study\1269.cpp(74,1): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
-C:\Users\User\Desktop\Baekjoon\Baekjoon-Study\Baekjoon Study\Baekjoon Study\1269.cpp(77,1): error C2059: 구문 오류: 'else'
-C:\Users\User\Desktop\Baekjoon\Baekjoon-Study\Baekjoon Study\Baekjoon Study\1269.cpp(78,1): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
-C:\Users\User\Desktop\Baekjoon\Baekjoon-Study\Baekjoon Study\Baekjoon Study\1269.cpp(78,1): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
