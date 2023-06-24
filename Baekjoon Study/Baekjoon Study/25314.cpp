@@ -10,7 +10,7 @@ int main()
 	{
 		cout << "long ";
 	}
-	cout << "int";
+	cout << "int" << '\n';
 
 	return 0;
 }
