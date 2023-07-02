@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int main()
@@ -19,6 +18,7 @@ int main()
 	for (int x = 0; x < M; x++)
 	{
 		cin >> i >> j >> k;
+
 		for (int y = i - 1; y < j; y++)
 		{
 			basket[y] = k;
@@ -29,8 +29,6 @@ int main()
 	{
 		cout << basket[x] << " ";
 	}
-
-	delete[] basket;
 
 	return 0;
 }
