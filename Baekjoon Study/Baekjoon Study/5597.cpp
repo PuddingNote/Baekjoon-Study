@@ -9,6 +9,7 @@ int main()
 	for (int i = 0; i < 28; i++)
 	{
 		cin >> n;
+
 		arr[n - 1] = true;
 	}
 
@@ -16,7 +17,7 @@ int main()
 	{
 		if (arr[i] == false)
 		{
-			cout << i + 1 << endl;
+			cout << i + 1 << '\n';
 		}
 	}
 
