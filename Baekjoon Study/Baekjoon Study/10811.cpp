@@ -23,7 +23,6 @@ int main()
 		{
 			swap(arr[y + i - 1], arr[j - y - 1]);
 		}
-
 	}
 
 	for (int x = 0; x < N; x++)
