@@ -9,7 +9,7 @@ int main()
 
 	cin >> s >> i;
 
-	cout << s[i - 1];
+	cout << s[i - 1] << '\n';
 
 	return 0;
 }
