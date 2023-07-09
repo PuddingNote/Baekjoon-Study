@@ -8,7 +8,7 @@ int main()
 
 	cin >> input;
 
-	cout << input.length();
+	cout << input.length() << '\n';
 
 	return 0;
 }
