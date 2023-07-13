@@ -1,37 +1,38 @@
 // 1
-//#include <iostream>
-//using namespace std;
-//
-//int main() 
-//{
-//    string s;
-//    string alp = "abcdefghijklmnopqrstuvwxyz";
-//    int i, j;
-//
-//    cin >> s;
-//
-//    for (i = 0; i < 26; i++)
-//    {
-//        for (j = 0; j < s.length(); j++)
-//        {
-//            if (s[j] == alp[i])
-//            {
-//                cout << j << " ";
-//                break;
-//            }
-//        }
-//        if (s[j] != alp[i])
-//        {
-//            cout << -1 << " ";
-//        }
-//    }
-//
-//    return 0;
-//}
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    string s;
+    string alp = "abcdefghijklmnopqrstuvwxyz";
+    int i, j;
+
+    cin >> s;
+
+    for (i = 0; i < alp.length(); i++)
+    {
+        for (j = 0; j < s.length(); j++)
+        {
+            if (s[j] == alp[i])
+            {
+                cout << j << " ";
+                break;
+            }
+        }
+
+        if (s[j] != alp[i])
+        {
+            cout << -1 << " ";
+        }
+    }
+
+    return 0;
+}
 
 // 2
 #include <iostream>
-#include <cstring>
+#include <string>
 using namespace std;
 
 int main()
