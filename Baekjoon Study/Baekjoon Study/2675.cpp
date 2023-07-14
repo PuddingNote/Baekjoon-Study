@@ -1,13 +1,9 @@
 #include <iostream>
-#include <cstring>
+#include <string>
 using namespace std;
-
-#define LENGTH 20
 
 int main()
 {
-    //ios_base::sync_with_stdio(false); cin.tie(NULL);
-
     string S;
     int R, r;
 
@@ -24,7 +20,7 @@ int main()
                 cout << S[j];
             }
         }
-        cout << endl;
+        cout << '\n';
     }
 
     return 0;
