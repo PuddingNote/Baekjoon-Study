@@ -11,16 +11,16 @@ int main()
 	
 	for (int i = 0; i < s.length(); i++)
 	{
-		if (s[i] == ' ')
-		{	// 공백일때 카운트
+		if (s[i] == ' ')	// 공백일때 카운트
+		{	
 			cnt++;
 		}
 	}
 
-	if (s[0] == ' ') cnt--;	// 0번쨰가 공백
+	if (s[0] == ' ') cnt--;	// 0번째가 공백
 	if (s[s.length() - 1] == ' ') cnt--; // 마지막이 공백
 
-	cout << cnt;
+	cout << cnt << '\n';
 
 	return 0;
 }
