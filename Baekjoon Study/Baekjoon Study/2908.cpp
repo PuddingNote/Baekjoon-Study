@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int change(int input)
@@ -25,8 +24,14 @@ int main()
 	A = change(A);
 	B = change(B);
 
-	if (A > B) cout << A;
-	else cout << B;
+	if (A > B)
+	{
+		cout << A << '\n';
+	}
+	else
+	{
+		cout << B << '\n';
+	}
 
 	return 0;
 }
