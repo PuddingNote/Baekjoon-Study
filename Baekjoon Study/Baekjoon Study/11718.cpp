@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-
 using namespace std;
 
 int main()
@@ -13,9 +12,8 @@ int main()
 
 		if (s == "") break;
 
-		cout << s << endl;
+		cout << s << '\n';
 	}
-
 
 	return 0;
 }
