@@ -16,7 +16,7 @@ int main()
         {
             cout << "*";
         }
-        cout << endl;
+        cout << '\n';
     }
 
     for (int i = N - 1; i >= 1; i--)
@@ -29,7 +29,7 @@ int main()
         {
             cout << "*";
         }
-        cout << endl;
+        cout << '\n';
     }
 
     return 0;
