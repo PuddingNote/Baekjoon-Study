@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cstring>
+#include <string>
 using namespace std;
 
 int main() 
@@ -9,6 +9,7 @@ int main()
     int alpCount[26];
     int MAX = -1;
     char result;
+    bool flag = false;
 
     cin >> s;
 
@@ -35,8 +36,7 @@ int main()
         }
     }
 
-    bool flag = false;
-    // ? 抗寇贸府 秦拎具达
+    // ? 抗寇贸府
     for (int i = 0; i < 26; i++)
     {
         if (alpCount[i] >= MAX)
@@ -59,7 +59,7 @@ int main()
         result = '?';
     }
 
-    cout << result;
+    cout << result << '\n';
 
     return 0;
 }
