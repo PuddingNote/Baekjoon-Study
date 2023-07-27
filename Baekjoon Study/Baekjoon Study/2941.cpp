@@ -6,9 +6,9 @@ using namespace std;
 int main() 
 {
     vector<string> croatian = { "c=","c-","dz=","d-","lj","nj","s=","z=" };
-
     int idx;
     string str;
+
     cin >> str;
     
     for (int i = 0; i < croatian.size(); i++)
@@ -22,5 +22,7 @@ int main()
             str.replace(idx, croatian[i].length(), "#"); // replace(시작 위치,길이,치환 문자열);
         }
     }
-    cout << str.length(); // 문자열.length(); 문자열 길이 구하기
+    cout << str.length() << '\n'; // 문자열.length(); 문자열 길이 구하기
+
+    return 0;
 }
