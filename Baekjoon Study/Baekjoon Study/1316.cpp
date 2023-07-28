@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cstring>
+#include <string>
 using namespace std;
 
 int main()
@@ -13,6 +13,7 @@ int main()
 	for (int i = 0; i < N; i++) 
 	{
 		cin >> str;
+
 		int size = str.length();
 		bool flag = true;
 
@@ -31,7 +32,7 @@ int main()
 		if (flag) cnt++;
 	}
 
-	cout << cnt;
+	cout << cnt << '\n';
 
 	return 0;
 }
