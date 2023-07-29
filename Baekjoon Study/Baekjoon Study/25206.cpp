@@ -33,7 +33,7 @@ int main()
 
     cout << fixed;
     cout.precision(6);
-    cout << sumScore / totalScore << endl;
+    cout << sumScore / totalScore << '\n';
 
 	return 0;
 }
