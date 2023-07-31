@@ -15,8 +15,14 @@ int main()
 		{
 			for (int k = 0; k < M; k++)
 			{
-				if (i == 0) cin >> A[j][k];
-				else cin >> B[j][k];
+				if (i == 0)
+				{
+					cin >> A[j][k];
+				}
+				else
+				{
+					cin >> B[j][k];
+				}
 			}
 		}
 	}
@@ -27,7 +33,7 @@ int main()
 		{
 			cout << A[i][j] + B[i][j] << " ";
 		}
-		cout << endl;
+		cout << '\n';
 	}
 
 	return 0;
