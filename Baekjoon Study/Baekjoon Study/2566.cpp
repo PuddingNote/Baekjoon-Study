@@ -30,7 +30,7 @@ int main()
 		}
 	}
 
-	cout << max << '\n' << _i << ' ' << _j;
+	cout << max << '\n' << _i << ' ' << _j << '\n';
 
 	return 0;
 }
