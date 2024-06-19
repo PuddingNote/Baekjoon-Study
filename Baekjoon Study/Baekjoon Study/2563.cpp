@@ -13,6 +13,7 @@ int main()
 	for (int i = 0; i < N; i++)
 	{
 		cin >> x >> y;
+
 		for (int j = x; j < x + 10; j++)
 		{
 			for (int k = y; k < y + 10; k++)
@@ -26,7 +27,7 @@ int main()
 		}
 	}
 
-	cout << result;
+	cout << result << '\n';
 
 	return 0;
 }
