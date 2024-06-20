@@ -20,7 +20,7 @@ int main()
 			sum = sum * b + (s[i] - 'A' + 10);
 		}
 	}
-	cout << sum << endl;
+	cout << sum << '\n';
 
 	return 0;
 }
