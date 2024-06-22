@@ -1,11 +1,10 @@
 #include <iostream>
-
 using namespace std;
 
 int main()
 {
 	int T, C;
-	int Q, D, N, P;
+	int Quarter, Dime, Nickel, Penny;
 
 	cin >> T;
 
@@ -13,18 +12,18 @@ int main()
 	{
 		cin >> C;
 
-		Q = C / 25;
+		Quarter = C / 25;
 		C = C % 25;
 
-		D = C / 10;
+		Dime = C / 10;
 		C = C % 10;		
 
-		N = C / 5;
+		Nickel = C / 5;
 		C = C % 5;
 
-		P = C;
+		Penny = C;
 
-		cout << Q << " " << D << " " << N << " " << P << endl;
+		cout << Quarter << " " << Dime << " " << Nickel << " " << Penny << '\n';
 	}
 
 	return 0;

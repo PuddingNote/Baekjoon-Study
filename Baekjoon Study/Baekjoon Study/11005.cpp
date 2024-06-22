@@ -26,7 +26,7 @@ int main()
 	}
 	reverse(s.begin(), s.end());
 
-	cout << s << endl;
+	cout << s << '\n';
 
 	return 0;
 }
