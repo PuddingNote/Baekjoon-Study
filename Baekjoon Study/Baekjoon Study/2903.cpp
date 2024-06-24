@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int main()
@@ -16,7 +15,7 @@ int main()
 
 	dot *= dot;
 
-	cout << dot << endl;
+	cout << dot << '\n';
 
 	return 0;
 }
