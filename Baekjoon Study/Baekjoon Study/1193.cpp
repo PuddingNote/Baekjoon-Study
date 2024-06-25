@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	int X;
-	int N = 0, D = 0; // 분자 분모
+	int numerator = 0, denominator = 0;	// 분자:numerator, 분모:denominator
 	int temp, count;
 
 	cin >> X;
@@ -18,8 +18,8 @@ int main()
 		{
 			for (int j = 1; j <= i; j++)
 			{
-				N = j;
-				D = temp;
+				numerator = j;
+				denominator = temp;
 				temp--;
 				count++;
 				if (X == count) break;
@@ -29,8 +29,8 @@ int main()
 		{
 			for (int j = 1; j <= i; j++)
 			{
-				N = temp;
-				D = j;
+				numerator = temp;
+				denominator = j;
 				temp--;
 				count++;
 				if (X == count) break;
@@ -40,7 +40,7 @@ int main()
 		if (X == count) break;
 	}
 
-	cout << N << "/" << D << endl;
+	cout << numerator << '/' << denominator << '\n';
 
 	return 0;
 }
