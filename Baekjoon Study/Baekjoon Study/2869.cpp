@@ -7,7 +7,7 @@ int main()
 
 	cin >> A >> B >> V;
 
-	cout << (V - B - 1) / (A - B) + 1 << endl;
+	cout << (V - B - 1) / (A - B) + 1 << '\n';
 
 	return 0;
 }
