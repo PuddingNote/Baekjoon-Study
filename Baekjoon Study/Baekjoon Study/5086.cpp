@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int main()
@@ -10,22 +9,19 @@ int main()
 	{
 		cin >> a >> b;
 
-		if (a == 0 && b == 0)
-		{
-			break;
-		}
+		if (a == 0 && b == 0) break;
 
 		if (a % b == 0)
 		{
-			cout << "multiple" << endl;
+			cout << "multiple" << '\n';
 		}
 		else if (b % a == 0)
 		{
-			cout << "factor" << endl;
+			cout << "factor" << '\n';
 		}
 		else
 		{
-			cout << "neither" << endl;
+			cout << "neither" << '\n';
 		}
 	}
 	
