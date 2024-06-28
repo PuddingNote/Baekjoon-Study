@@ -16,6 +16,7 @@ int main()
 
 		if (N == -1) break;
 
+		// 약수를 찾고 벡터에 저장
 		for (int i = 1; i < N; i++)
 		{
 			if (N % i == 0)
@@ -24,11 +25,13 @@ int main()
 			}
 		}
 
+		// 약수의 합 계산
 		for (int i = 0; i < v.size(); i++)
 		{
 			sum += v[i];
 		}
 
+		// 완전수인지 확인
 		if (sum == N)
 		{
 			cout << N << " = ";
@@ -37,7 +40,7 @@ int main()
 				cout << v[i];
 				if (i == v.size() - 1)
 				{
-					cout << endl; 
+					cout << '\n'; 
 					break;
 				}
 				cout << " + ";
@@ -45,7 +48,7 @@ int main()
 		}
 		else
 		{
-			cout << N << " is NOT perfect." << endl;
+			cout << N << " is NOT perfect." << '\n';
 		}
 
 		v.erase(v.begin(),v.end());
