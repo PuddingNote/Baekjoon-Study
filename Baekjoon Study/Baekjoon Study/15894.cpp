@@ -1,14 +1,13 @@
 #include <iostream>
-
 using namespace std;
 
 int main()
 {
-	long n;
+	long long n;
 
 	cin >> n;
 
-	cout << n * 4 << endl;
+	cout << n * 4 << '\n';
 
 	return 0;
 }
