@@ -1,37 +1,27 @@
 #include <iostream>
-
 using namespace std;
 
 int main()
 {
-	int a, b, c;
-	int sum = 0;
+	int x, y, z;
 
-	cin >> a >> b >> c;
+	cin >> x >> y >> z;
 
-	sum = a + b + c;
-
-	if (a == 60 && b == 60 && c == 60)
+	if (x + y + z != 180)
 	{
-		cout << "Equilateral" << endl;
+		cout << "Error" << '\n';
+	}
+	else if (x == 60 && y == 60 && z == 60)
+	{
+		cout << "Equilateral" << '\n';
+	}
+	else if (x == y || y == z || z == x)
+	{
+		cout << "Isosceles" << '\n';
 	}
 	else
 	{
-		if (sum != 180)
-		{
-			cout << "Error" << endl;
-		}
-		else
-		{
-			if (a == b || b == c || c == a)
-			{
-				cout << "Isosceles" << endl;
-			}
-			else
-			{
-				cout << "Scalene" << endl;
-			}
-		}
+		cout << "Scalene" << '\n';
 	}
 
 	return 0;
