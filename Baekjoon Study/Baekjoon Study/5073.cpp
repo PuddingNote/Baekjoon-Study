@@ -1,46 +1,31 @@
 #include <iostream>
-#include <algorithm>
 using namespace std;
 
 int main()
 {
-	int a, b, c;
+	int x, y, z;
 
 	while (1)
 	{
-		cin >> a >> b >> c;
+		cin >> x >> y >> z;
 
-		if (b > a) swap(a, b);
-		if (c > a) swap(a, c);
-
-		if (a == 0 && b == 0 && c == b)
+		if (x == 0 && y == 0 && z == 0) break;
+		
+		if (x + y <= z || y + z <= x || z + x <= y)
 		{
-			break;
+			cout << "Invalid" << '\n';
+		}
+		else if (x == y && y == z && z == x)
+		{
+			cout << "Equilateral" << '\n';
+		}
+		else if (x == y || y == z || z == x)
+		{
+			cout << "Isosceles" << '\n';
 		}
 		else
 		{
-			if (a >= b + c)
-			{
-				cout << "Invalid" << endl;
-			}
-			else
-			{
-				if (a == b && b == c && c == a)
-				{
-					cout << "Equilateral" << endl;
-				}
-				else
-				{
-					if (a == b || b == c || c == a)
-					{
-						cout << "Isosceles" << endl;
-					}
-					else
-					{
-						cout << "Scalene" << endl;
-					}
-				}
-			}
+			cout << "Scalene" << '\n';
 		}
 	}
 
