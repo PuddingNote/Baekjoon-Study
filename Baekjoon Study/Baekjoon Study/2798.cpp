@@ -1,20 +1,19 @@
 #include <iostream>
-
+#include <vector>
 using namespace std;
 
 int main()
 {
 	int N, M;
 	int sum = 0, result = 0;
-	int min = 100000;
 
 	cin >> N >> M;
 
-	int* arr = new int[N];
+	vector<int> cards(N);
 
 	for (int i = 0; i < N; i++)
 	{
-		cin >> arr[i];
+		cin >> cards[i];
 	}
 
 	for (int i = 0; i < N - 2; i++)
@@ -23,16 +22,17 @@ int main()
 		{
 			for (int k = j + 1; k < N; k++)
 			{
-				sum = arr[i] + arr[j] + arr[k];
-				if (M - sum < min && M - sum >= 0) {
-					min = M - sum;
+				sum = cards[i] + cards[j] + cards[k];
+
+				if (sum <= M && sum > result)
+				{
 					result = sum;
 				}
 			}
 		}
 	}
 
-	cout << result << endl;
+	cout << result << '\n';
 
 	return 0;
 }
