@@ -10,21 +10,21 @@ int main()
 
     A = N / 5;
 	
-    while (1)
+    while (true)
     {
         if (A < 0)
         {
-            cout << "-1";
-            return 0;
+            cout << "-1" << '\n';
+            break;
         }
         if ((N - (5 * A)) % 3 == 0)
         {
             B = (N - (5 * A)) / 3;
+            cout << A + B << '\n';
             break;
         }
         A--;
     }
-    cout << A + B;
 
 	return 0;
 }
