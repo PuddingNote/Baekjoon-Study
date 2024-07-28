@@ -1,28 +1,31 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 int main()
 {
-	ios::sync_with_stdio(false);
+	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
-	cout.tie(NULL);
 
 	int N;
 	cin >> N;
 
+	vector<int> count(10001, 0);	// 0부터 10000까지의 크기 생성 후 0으로 초기화
+
 	int input;
-	int arr[10001] = { 0, };
-	for (int i = 1; i <= N; i++)
+	for (int i = 0; i < N; i++)
 	{
 		cin >> input;
-		arr[input] += 1;
+		count[input]++;
 	}
 
-	for (int i = 1; i <= 10000; i++)
+	// 카운팅 정렬
+	for (int i = 1; i < 10001; i++)
 	{
-		for (int j = 1; j <= arr[i]; j++)
+		while (count[i] > 0)
 		{
 			cout << i << '\n';
+			count[i]--;
 		}
 	}
 
