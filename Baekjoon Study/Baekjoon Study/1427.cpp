@@ -13,10 +13,12 @@ int main()
 	int N;
 	cin >> N;
 
-	string a;
-	a = to_string(N);
+	string s;
+	s = to_string(N);
 
-	sort(a.begin(), a.end(), compare);
+	sort(s.begin(), s.end(), compare);
 	
-	cout << a;
+	cout << s << '\n';
+
+	return 0;
 }
