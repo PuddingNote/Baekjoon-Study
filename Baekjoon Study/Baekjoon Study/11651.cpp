@@ -10,17 +10,13 @@ struct Point
 
 bool comparePoints(Point p1, Point p2)
 {
-	if (p1.y > p2.y)
+	if (p1.y != p2.y)
 	{
-		return false;
-	}
-	else if (p1.y == p2.y && p1.x > p2.x)
-	{
-		return false;
+		return p1.y < p2.y;
 	}
 	else
 	{
-		return true;
+		return p1.x < p2.x;
 	}
 }
 
