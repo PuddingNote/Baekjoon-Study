@@ -25,7 +25,6 @@ bool compare(const Member& m1, const Member& m2)
 int main()
 {
 	int N;
-	
 	cin >> N;
 
 	Member* m = new Member[N];
