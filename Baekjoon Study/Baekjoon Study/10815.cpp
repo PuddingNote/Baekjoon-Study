@@ -5,27 +5,32 @@ using namespace std;
 
 int main()
 {
-    // 이거 안넣으니까 시간초과로 실패함
+    // 시간 단축을 위해
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int N, M, temp;
-    vector<int> v;
-
+    int N;
     cin >> N;
-    while (N--) 
+
+    vector<int> v(N);
+
+    for (int i = 0; i < N; i++)
     {
-        cin >> temp;
-        v.push_back(temp);
+        cin >> v[i];
     }
 
     sort(v.begin(), v.end());
 
+    int M;
     cin >> M;
-    while (M--)
+
+    int input;
+    for (int i = 0; i < M; i++)
     {
-        cin >> temp;
-        cout << binary_search(v.begin(), v.end(), temp) << '\n'; // 찾는값이 있으면 true
+        cin >> input;
+
+        // 찾는값이 있으면 true 반환 (true = 1, false = 0 출력)
+        cout << binary_search(v.begin(), v.end(), input) << ' '; 
     }
 
 	return 0;
