@@ -4,26 +4,29 @@ using namespace std;
 
 int main()
 {
-	ios_base::sync_with_stdio(false);
-	cin.tie(nullptr);
-
-	int N, M, count = 0;
-	string s;
-	map<string, bool> arr;
-
+	int N, M;
 	cin >> N >> M;
+
+	string s;
+	map<string, bool> arr;	// 문자열을 key로 사용하고, 해당 문자열의 존재 여부를 bool값으로 저장
 	
-	while (N--)
+	for (int i = 0; i < N; i++)
 	{
 		cin >> s;
 		arr[s] = true;
 	}
 
-	while (M--)
+	int count = 0;
+	for (int i = 0; i < M; i++)
 	{
 		cin >> s;
 
-		if (arr[s] == true)
+		/*if (arr[s] == true)
+		{
+			count++;
+		}*/
+
+		if (arr.find(s) != arr.end())
 		{
 			count++;
 		}
