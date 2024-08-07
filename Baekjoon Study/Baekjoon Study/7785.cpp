@@ -49,7 +49,7 @@ int main()
 */
 
 #include <iostream>
-#include <string>
+#include <cstring>
 #include <algorithm>
 #include <set>
 using namespace std;
@@ -57,13 +57,13 @@ using namespace std;
 int main()
 {
 	int N;
-	string name;
-	string compare;
-	set<string, greater<string>> s;
-
 	cin >> N;
 
-	while (N--)
+	string name;
+	string compare;
+	set<string, greater<string>> s;	// string타입의 요소들을 내림차순으로 정렬
+
+	for (int i = 0; i < N; i++)
 	{
 		cin >> name >> compare;
 
@@ -77,9 +77,9 @@ int main()
 		}
 	}
 
-	for (auto it = s.begin(); it != s.end(); it++) 
+	for (const auto& name : s)
 	{
-		cout << *it << '\n';
+		cout << name << '\n';
 	}
 
 	return 0;
