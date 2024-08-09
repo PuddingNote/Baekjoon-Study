@@ -1,5 +1,4 @@
 #include <iostream>
-#include <algorithm>
 #include <map>
 using namespace std;
 
@@ -8,21 +7,22 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int N, M, temp;
+    int N, M;
+    int input;
     map<int, int> arr;
 
     cin >> N;
-    while (N--)
+    for (int i = 0; i < N; i++)
     {
-        cin >> temp;
-        arr[temp]++;
+        cin >> input;
+        arr[input]++;
     }
 
     cin >> M;
-    while (M--)
+    for (int i = 0; i < M; i++)
     {
-        cin >> temp;
-        cout << arr[temp] << " ";
+        cin >> input;
+        cout << arr[input] << " ";
     }
     cout << '\n';
 

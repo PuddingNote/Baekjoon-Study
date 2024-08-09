@@ -1,2 +1,68 @@
-﻿  1620.cpp
-  Baekjoon Study.vcxproj -> C:\Users\MyDesktop\Desktop\Baekjoon-Study\Baekjoon Study\x64\Debug\Baekjoon Study.exe
+﻿  10816.cpp
+C:\Users\MyDesktop\Desktop\Baekjoon-Study\Baekjoon Study\Baekjoon Study\10816.cpp(28,12): warning C4834: 'nodiscard' 특성이 포함된 함수의 반환 값을 버리는 중
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(1455,19): error C2064: 항은 2개의 인수를 받아들이는 함수로 계산되지 않습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(1454): message : 컴파일되는 함수 템플릿 인스턴스화 'bool std::_Debug_lt_pred<const int&,const _Kty&,const _Keyty&,0>(_Pr,_Ty1,_Ty2) noexcept(<expr>)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Kty=int,
+              _Keyty=int,
+              _Pr=const int &,
+              _Ty1=const int &,
+              _Ty2=const int &
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtree(1353): message : 컴파일되는 함수 템플릿 인스턴스화 'std::_Tree_find_result<std::_Tree_node<int,std::_Default_allocator_traits<_Alloc>::void_pointer> *> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Find_lower_bound<_Other>(const _Keyty &) const'에 대한 참조를 확인하세요.
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Kty=int,
+              _Pr=int,
+              _Other=int,
+              _Keyty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtree(1353): message : 컴파일되는 함수 템플릿 인스턴스화 'std::_Tree_find_result<std::_Tree_node<int,std::_Default_allocator_traits<_Alloc>::void_pointer> *> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Find_lower_bound<_Other>(const _Keyty &) const'에 대한 참조를 확인하세요.
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Kty=int,
+              _Pr=int,
+              _Other=int,
+              _Keyty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtree(1363): message : 컴파일되는 함수 템플릿 인스턴스화 'std::_Tree_node<int,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Find<int>(const _Other &) const'에 대한 참조를 확인하세요.
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Kty=int,
+              _Pr=int,
+              _Other=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtree(1363): message : 컴파일되는 함수 템플릿 인스턴스화 'std::_Tree_node<int,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Find<int>(const _Other &) const'에 대한 참조를 확인하세요.
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Kty=int,
+              _Pr=int,
+              _Other=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtree(1362): message : 클래스 템플릿 멤버 함수 'std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<int>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const int &)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              _Kty=int,
+              _Pr=int,
+              _Alloc=std::allocator<int>
+          ]
+C:\Users\MyDesktop\Desktop\Baekjoon-Study\Baekjoon Study\Baekjoon Study\10816.cpp(28): message : 컴파일되는 함수 템플릿 인스턴스화 'std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<int>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const int &)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Kty=int,
+              _Pr=int,
+              _Alloc=std::allocator<int>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\set(52): message : 컴파일되는 클래스 템플릿 인스턴스화 'std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>'에 대한 참조를 확인하세요.
+          with
+          [
+              _Kty=int,
+              _Pr=int,
+              _Alloc=std::allocator<int>
+          ]
+C:\Users\MyDesktop\Desktop\Baekjoon-Study\Baekjoon Study\Baekjoon Study\10816.cpp(14): message : 컴파일되는 클래스 템플릿 인스턴스화 'std::set<int,int,std::allocator<int>>'에 대한 참조를 확인하세요.
