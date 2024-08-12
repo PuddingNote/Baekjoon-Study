@@ -1,21 +1,22 @@
 #include <iostream>
-#include <set>
 #include <string>
+#include <set>
 using namespace std;
 
 int main()
 {
-	string S, temp;
-	set<string> set;
+	string s;
+	cin >> s;
 
-	cin >> S;
+	set<string> set;
+	string temp;
 	
-	for (int i = 0; i < S.size(); i++)
+	for (int i = 0; i < s.size(); i++)
 	{
 		temp = "";
-		for (int j = i; j < S.size(); j++)
+		for (int j = i; j < s.size(); j++)
 		{
-			temp += S[j];
+			temp += s[j];
 			set.insert(temp);
 		}
 	}
