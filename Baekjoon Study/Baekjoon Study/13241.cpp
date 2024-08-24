@@ -1,23 +1,27 @@
 #include <iostream>
-
 using namespace std;
 
 long long GCD(long long a, long long b)
 {
-    if (a < b) 
-    { 
+    if (a < b)
+    {
         return GCD(a, b % a);
     }
 
-    if (b == 0) 
-    { 
-        return a; 
+    if (b == 0)
+    {
+        return a;
     }
 
     return GCD(b, a % b);
 }
 
-int main() 
+long long LCM(long long a, long long b, long long gcd)
+{
+    return gcd * (a / gcd) * (b / gcd);
+}
+
+int main()
 {
     long long a, b, gcd;
 
@@ -25,7 +29,7 @@ int main()
 
     gcd = GCD(a, b);
 
-    cout << gcd * (a / gcd) * (b / gcd) << '\n';
+    cout << LCM(a, b, gcd) << '\n';
 
     return 0;
 }
