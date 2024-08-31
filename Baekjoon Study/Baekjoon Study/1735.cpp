@@ -1,31 +1,27 @@
 #include <iostream>
-
 using namespace std;
 
-long long GCD(long long a, long long b)
+int GCD(int A, int B)
 {
-    if (a < b)
+    while (B != 0)
     {
-        return GCD(a, b % a);
+        int temp = B;
+        B = A % B;
+        A = temp;
     }
-
-    if (b == 0)
-    {
-        return a;
-    }
-
-    return GCD(b, a % b);
+    return A;
 }
 
 int main()
 {
-    int a1, b1, a2, b2;
-    int N, M;
+    int a1, b1;
+    int a2, b2;
 
-    cin >> a1 >> b1 >> a2 >> b2;
+    cin >> a1 >> b1;
+    cin >> a2 >> b2;
 
-    N = a1 * b2 + a2 * b1;
-    M = b1 * b2;
+    int N = a1 * b2 + a2 * b1;
+    int M = b1 * b2;
 
     cout << N / GCD(N, M) << ' ' << M / GCD(N, M) << '\n';
 
