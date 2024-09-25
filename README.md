@@ -205,7 +205,7 @@
 </details>
 
 <details>
-  <summary>15. 약수, 배수와 소수 2 (5/9)</summary>
+  <summary>15. 약수, 배수와 소수 2 (7/9)</summary>
   <ul>
     <li>1934</li>
     <li>13241</li>
