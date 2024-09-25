@@ -2,44 +2,40 @@
 #include <cmath>
 using namespace std;
 
+bool isPrime(int num)
+{
+	if (num < 2)
+	{
+		return false;
+	}
+	if (num == 2)
+	{
+		return true;
+	}
+	if (num % 2 == 0)
+	{
+		return false;
+	}
+
+	int rt = sqrt(num);
+	for (int i = 3; i <= rt; i += 2)
+	{
+		if (num % i == 0)
+		{
+			return false;
+		}
+	}
+	return true;
+}
+
 int main()
 {
 	int M, N;
 	cin >> M >> N;
 
-	if (M < 2)
-	{
-		M = 2;
-	}
-
-	bool isPrime;
-	int rt;
 	for (int i = M; i <= N; i++)
 	{
-		rt = sqrt(i);
-		isPrime = true;
-
-		if (i == 2)
-		{
-			cout << i << '\n';
-			continue;
-		}
-
-		if (i % 2 == 0)
-		{
-			continue;
-		}
-
-		for (int j = 2; j <= rt; j++)
-		{
-			if (i % j == 0)
-			{
-				isPrime = false;
-				break;
-			}
-		}
-
-		if (isPrime == true)
+		if (isPrime(i) == true)
 		{
 			cout << i << '\n';
 		}
