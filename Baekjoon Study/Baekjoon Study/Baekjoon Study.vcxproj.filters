@@ -486,5 +486,8 @@
     <ClCompile Include="9012.cpp">
       <Filter>소스 파일\16. 스택, 큐, 덱</Filter>
     </ClCompile>
+    <ClCompile Include="4949.cpp">
+      <Filter>소스 파일\16. 스택, 큐, 덱</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
