@@ -220,13 +220,13 @@
 </details>
 
 <details>
-  <summary>16. 스택, 큐, 덱 (0/11)</summary>
+  <summary>16. 스택, 큐, 덱 (5/11)</summary>
   <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>28278</li>
+    <li>10773</li>
+    <li>9012</li>
+    <li>4949</li>
+    <li>12789</li>
     <li></li>
     <li></li>
     <li></li>
