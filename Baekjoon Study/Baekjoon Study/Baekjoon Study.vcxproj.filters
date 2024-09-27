@@ -13,349 +13,475 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\1. 입출력과 사칙연산">
+      <UniqueIdentifier>{d352a2b6-e34d-453c-ae49-fa1c2a73b1bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 조건문">
+      <UniqueIdentifier>{aa72160a-49c4-47fd-9608-7e622938a8ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3. 반복문">
+      <UniqueIdentifier>{5b0cab45-8e79-4502-b961-37d66e5b974d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4. 1차원 배열">
+      <UniqueIdentifier>{b3f6a1b4-6af6-44a4-a9bd-bf5065ea398a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5. 문자열">
+      <UniqueIdentifier>{9f9b9469-fe0e-46b2-b082-6dc90088f97a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\6. 심화 1">
+      <UniqueIdentifier>{148eead6-9f2c-4533-80e2-27929ffbf5f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\7. 2차원 배열">
+      <UniqueIdentifier>{306016a3-6535-4142-b132-869f33163fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\8. 일반 수학1">
+      <UniqueIdentifier>{b161ae9e-0a79-4656-b383-2a32d7a49d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\9. 약수, 배수와 소수">
+      <UniqueIdentifier>{e3b96154-3eb9-4ce1-ac7e-906a033dbcaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10. 기하: 직사각형과 삼각형">
+      <UniqueIdentifier>{975ac3e7-b243-47a6-8362-83c77484d31c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11. 시간 복잡도">
+      <UniqueIdentifier>{0a3b3d18-3bbe-460d-b7b7-9fd2bb749984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\12. 브루트 포스">
+      <UniqueIdentifier>{aeb8ce4d-477b-48ab-9a3f-887c87089426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\13. 정렬">
+      <UniqueIdentifier>{ca544091-d573-43f6-95cc-af7eb24e0299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\14. 집합과 맵">
+      <UniqueIdentifier>{4047727b-d427-4e54-946e-00af14b36e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\15. 약수, 배수와 소수 2">
+      <UniqueIdentifier>{b022e757-f032-4eb6-a7ca-8bf92267f0fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\16. 스택, 큐, 덱">
+      <UniqueIdentifier>{70be0624-59bb-4f48-a60a-491a05c672c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\19. 조합론">
+      <UniqueIdentifier>{f9550169-d8e3-4d50-bb66-954f08506e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\20. 심화 2">
+      <UniqueIdentifier>{8c5a0a77-40b0-4c71-b2e4-ca4dbf749bd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\21. 재귀">
+      <UniqueIdentifier>{df184a39-c274-45af-a2f7-12e46c28a949}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1065.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1152.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1157.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1193.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1316.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1427.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1929.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1978.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2108.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2563.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2566.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2581.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2587.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2675.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2738.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2750.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2751.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2839.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2869.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2908.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2941.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="4673.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="5597.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="5622.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10807.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10809.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10870.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10872.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10989.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11382.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11653.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11654.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11720.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="15596.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="24262.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="25305.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="25314.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2743.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9086.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11718.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="27866.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2444.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10988.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10798.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="25206.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="27323.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10810.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="24263.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10813.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10811.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10757.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="24723.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="5086.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10812.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2501.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9506.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2798.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="15439.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="3009.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10101.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="5073.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="24264.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2720.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2745.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11005.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2903.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2292.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="15894.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1085.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="14215.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9063.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="24265.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="24266.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="24267.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="24313.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2231.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11650.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="19532.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1436.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11651.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1181.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10814.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1934.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1037.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10815.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7785.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="13909.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11050.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1010.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10816.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="14425.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="13241.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1735.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2557.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="1000.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\1. 입출력과 사칙연산</Filter>
     </ClCompile>
     <ClCompile Include="1001.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\1. 입출력과 사칙연산</Filter>
     </ClCompile>
-    <ClCompile Include="10998.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="2557.cpp">
+      <Filter>소스 파일\1. 입출력과 사칙연산</Filter>
     </ClCompile>
     <ClCompile Include="1008.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\1. 입출력과 사칙연산</Filter>
     </ClCompile>
     <ClCompile Include="10869.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\1. 입출력과 사칙연산</Filter>
     </ClCompile>
-    <ClCompile Include="1269.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="10998.cpp">
+      <Filter>소스 파일\1. 입출력과 사칙연산</Filter>
     </ClCompile>
     <ClCompile Include="10926.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="18108.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\1. 입출력과 사칙연산</Filter>
     </ClCompile>
     <ClCompile Include="10430.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\1. 입출력과 사칙연산</Filter>
+    </ClCompile>
+    <ClCompile Include="18108.cpp">
+      <Filter>소스 파일\1. 입출력과 사칙연산</Filter>
     </ClCompile>
     <ClCompile Include="2588.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\1. 입출력과 사칙연산</Filter>
     </ClCompile>
-    <ClCompile Include="18870.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="11382.cpp">
+      <Filter>소스 파일\1. 입출력과 사칙연산</Filter>
+    </ClCompile>
+    <ClCompile Include="10171.cpp">
+      <Filter>소스 파일\1. 입출력과 사칙연산</Filter>
+    </ClCompile>
+    <ClCompile Include="10172.cpp">
+      <Filter>소스 파일\1. 입출력과 사칙연산</Filter>
+    </ClCompile>
+    <ClCompile Include="1330.cpp">
+      <Filter>소스 파일\2. 조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="9498.cpp">
+      <Filter>소스 파일\2. 조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="2753.cpp">
+      <Filter>소스 파일\2. 조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="14681.cpp">
+      <Filter>소스 파일\2. 조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="2884.cpp">
+      <Filter>소스 파일\2. 조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="2525.cpp">
+      <Filter>소스 파일\2. 조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="2480.cpp">
+      <Filter>소스 파일\2. 조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="2739.cpp">
+      <Filter>소스 파일\3. 반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="10950.cpp">
+      <Filter>소스 파일\3. 반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="8393.cpp">
+      <Filter>소스 파일\3. 반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="25304.cpp">
+      <Filter>소스 파일\3. 반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="25314.cpp">
+      <Filter>소스 파일\3. 반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="15552.cpp">
+      <Filter>소스 파일\3. 반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="11021.cpp">
+      <Filter>소스 파일\3. 반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="11022.cpp">
+      <Filter>소스 파일\3. 반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="2438.cpp">
+      <Filter>소스 파일\3. 반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="2439.cpp">
+      <Filter>소스 파일\3. 반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="10952.cpp">
+      <Filter>소스 파일\3. 반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="10951.cpp">
+      <Filter>소스 파일\3. 반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="10807.cpp">
+      <Filter>소스 파일\4. 1차원 배열</Filter>
+    </ClCompile>
+    <ClCompile Include="10871.cpp">
+      <Filter>소스 파일\4. 1차원 배열</Filter>
+    </ClCompile>
+    <ClCompile Include="10818.cpp">
+      <Filter>소스 파일\4. 1차원 배열</Filter>
+    </ClCompile>
+    <ClCompile Include="2562.cpp">
+      <Filter>소스 파일\4. 1차원 배열</Filter>
+    </ClCompile>
+    <ClCompile Include="10810.cpp">
+      <Filter>소스 파일\4. 1차원 배열</Filter>
+    </ClCompile>
+    <ClCompile Include="10811.cpp">
+      <Filter>소스 파일\4. 1차원 배열</Filter>
+    </ClCompile>
+    <ClCompile Include="10813.cpp">
+      <Filter>소스 파일\4. 1차원 배열</Filter>
+    </ClCompile>
+    <ClCompile Include="5597.cpp">
+      <Filter>소스 파일\4. 1차원 배열</Filter>
+    </ClCompile>
+    <ClCompile Include="3052.cpp">
+      <Filter>소스 파일\4. 1차원 배열</Filter>
+    </ClCompile>
+    <ClCompile Include="1546.cpp">
+      <Filter>소스 파일\4. 1차원 배열</Filter>
+    </ClCompile>
+    <ClCompile Include="27866.cpp">
+      <Filter>소스 파일\5. 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="2743.cpp">
+      <Filter>소스 파일\5. 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="9086.cpp">
+      <Filter>소스 파일\5. 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="11654.cpp">
+      <Filter>소스 파일\5. 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="11720.cpp">
+      <Filter>소스 파일\5. 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="10809.cpp">
+      <Filter>소스 파일\5. 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="2675.cpp">
+      <Filter>소스 파일\5. 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="1152.cpp">
+      <Filter>소스 파일\5. 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="2908.cpp">
+      <Filter>소스 파일\5. 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="5622.cpp">
+      <Filter>소스 파일\5. 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="11718.cpp">
+      <Filter>소스 파일\5. 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="2444.cpp">
+      <Filter>소스 파일\6. 심화 1</Filter>
+    </ClCompile>
+    <ClCompile Include="25083.cpp">
+      <Filter>소스 파일\6. 심화 1</Filter>
+    </ClCompile>
+    <ClCompile Include="3003.cpp">
+      <Filter>소스 파일\6. 심화 1</Filter>
+    </ClCompile>
+    <ClCompile Include="1157.cpp">
+      <Filter>소스 파일\6. 심화 1</Filter>
+    </ClCompile>
+    <ClCompile Include="10988.cpp">
+      <Filter>소스 파일\6. 심화 1</Filter>
+    </ClCompile>
+    <ClCompile Include="2941.cpp">
+      <Filter>소스 파일\6. 심화 1</Filter>
+    </ClCompile>
+    <ClCompile Include="1316.cpp">
+      <Filter>소스 파일\6. 심화 1</Filter>
+    </ClCompile>
+    <ClCompile Include="25206.cpp">
+      <Filter>소스 파일\6. 심화 1</Filter>
+    </ClCompile>
+    <ClCompile Include="2738.cpp">
+      <Filter>소스 파일\7. 2차원 배열</Filter>
+    </ClCompile>
+    <ClCompile Include="2566.cpp">
+      <Filter>소스 파일\7. 2차원 배열</Filter>
+    </ClCompile>
+    <ClCompile Include="2563.cpp">
+      <Filter>소스 파일\7. 2차원 배열</Filter>
+    </ClCompile>
+    <ClCompile Include="10798.cpp">
+      <Filter>소스 파일\7. 2차원 배열</Filter>
+    </ClCompile>
+    <ClCompile Include="2745.cpp">
+      <Filter>소스 파일\8. 일반 수학1</Filter>
+    </ClCompile>
+    <ClCompile Include="2720.cpp">
+      <Filter>소스 파일\8. 일반 수학1</Filter>
+    </ClCompile>
+    <ClCompile Include="2292.cpp">
+      <Filter>소스 파일\8. 일반 수학1</Filter>
+    </ClCompile>
+    <ClCompile Include="1193.cpp">
+      <Filter>소스 파일\8. 일반 수학1</Filter>
+    </ClCompile>
+    <ClCompile Include="2869.cpp">
+      <Filter>소스 파일\8. 일반 수학1</Filter>
+    </ClCompile>
+    <ClCompile Include="2903.cpp">
+      <Filter>소스 파일\8. 일반 수학1</Filter>
+    </ClCompile>
+    <ClCompile Include="11005.cpp">
+      <Filter>소스 파일\8. 일반 수학1</Filter>
+    </ClCompile>
+    <ClCompile Include="1978.cpp">
+      <Filter>소스 파일\9. 약수, 배수와 소수</Filter>
+    </ClCompile>
+    <ClCompile Include="2501.cpp">
+      <Filter>소스 파일\9. 약수, 배수와 소수</Filter>
+    </ClCompile>
+    <ClCompile Include="2581.cpp">
+      <Filter>소스 파일\9. 약수, 배수와 소수</Filter>
+    </ClCompile>
+    <ClCompile Include="5086.cpp">
+      <Filter>소스 파일\9. 약수, 배수와 소수</Filter>
+    </ClCompile>
+    <ClCompile Include="9506.cpp">
+      <Filter>소스 파일\9. 약수, 배수와 소수</Filter>
+    </ClCompile>
+    <ClCompile Include="11653.cpp">
+      <Filter>소스 파일\9. 약수, 배수와 소수</Filter>
+    </ClCompile>
+    <ClCompile Include="1085.cpp">
+      <Filter>소스 파일\10. 기하: 직사각형과 삼각형</Filter>
+    </ClCompile>
+    <ClCompile Include="3009.cpp">
+      <Filter>소스 파일\10. 기하: 직사각형과 삼각형</Filter>
+    </ClCompile>
+    <ClCompile Include="5073.cpp">
+      <Filter>소스 파일\10. 기하: 직사각형과 삼각형</Filter>
+    </ClCompile>
+    <ClCompile Include="9063.cpp">
+      <Filter>소스 파일\10. 기하: 직사각형과 삼각형</Filter>
+    </ClCompile>
+    <ClCompile Include="10101.cpp">
+      <Filter>소스 파일\10. 기하: 직사각형과 삼각형</Filter>
+    </ClCompile>
+    <ClCompile Include="14215.cpp">
+      <Filter>소스 파일\10. 기하: 직사각형과 삼각형</Filter>
+    </ClCompile>
+    <ClCompile Include="15894.cpp">
+      <Filter>소스 파일\10. 기하: 직사각형과 삼각형</Filter>
+    </ClCompile>
+    <ClCompile Include="27323.cpp">
+      <Filter>소스 파일\10. 기하: 직사각형과 삼각형</Filter>
+    </ClCompile>
+    <ClCompile Include="24262.cpp">
+      <Filter>소스 파일\11. 시간 복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="24263.cpp">
+      <Filter>소스 파일\11. 시간 복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="24264.cpp">
+      <Filter>소스 파일\11. 시간 복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="24265.cpp">
+      <Filter>소스 파일\11. 시간 복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="24266.cpp">
+      <Filter>소스 파일\11. 시간 복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="24267.cpp">
+      <Filter>소스 파일\11. 시간 복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="24313.cpp">
+      <Filter>소스 파일\11. 시간 복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="2798.cpp">
+      <Filter>소스 파일\12. 브루트 포스</Filter>
+    </ClCompile>
+    <ClCompile Include="2231.cpp">
+      <Filter>소스 파일\12. 브루트 포스</Filter>
     </ClCompile>
     <ClCompile Include="1018.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\12. 브루트 포스</Filter>
     </ClCompile>
-    <ClCompile Include="1620.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="1436.cpp">
+      <Filter>소스 파일\12. 브루트 포스</Filter>
+    </ClCompile>
+    <ClCompile Include="2839.cpp">
+      <Filter>소스 파일\12. 브루트 포스</Filter>
+    </ClCompile>
+    <ClCompile Include="19532.cpp">
+      <Filter>소스 파일\12. 브루트 포스</Filter>
+    </ClCompile>
+    <ClCompile Include="2750.cpp">
+      <Filter>소스 파일\13. 정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="2587.cpp">
+      <Filter>소스 파일\13. 정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="2751.cpp">
+      <Filter>소스 파일\13. 정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="1427.cpp">
+      <Filter>소스 파일\13. 정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="1181.cpp">
+      <Filter>소스 파일\13. 정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="10989.cpp">
+      <Filter>소스 파일\13. 정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="11650.cpp">
+      <Filter>소스 파일\13. 정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="11651.cpp">
+      <Filter>소스 파일\13. 정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="10814.cpp">
+      <Filter>소스 파일\13. 정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="18870.cpp">
+      <Filter>소스 파일\13. 정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="25305.cpp">
+      <Filter>소스 파일\13. 정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="7785.cpp">
+      <Filter>소스 파일\14. 집합과 맵</Filter>
     </ClCompile>
     <ClCompile Include="1764.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\14. 집합과 맵</Filter>
+    </ClCompile>
+    <ClCompile Include="1620.cpp">
+      <Filter>소스 파일\14. 집합과 맵</Filter>
+    </ClCompile>
+    <ClCompile Include="1269.cpp">
+      <Filter>소스 파일\14. 집합과 맵</Filter>
     </ClCompile>
     <ClCompile Include="11478.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\14. 집합과 맵</Filter>
+    </ClCompile>
+    <ClCompile Include="10816.cpp">
+      <Filter>소스 파일\14. 집합과 맵</Filter>
+    </ClCompile>
+    <ClCompile Include="10815.cpp">
+      <Filter>소스 파일\14. 집합과 맵</Filter>
+    </ClCompile>
+    <ClCompile Include="14425.cpp">
+      <Filter>소스 파일\14. 집합과 맵</Filter>
+    </ClCompile>
+    <ClCompile Include="1934.cpp">
+      <Filter>소스 파일\15. 약수, 배수와 소수 2</Filter>
+    </ClCompile>
+    <ClCompile Include="1735.cpp">
+      <Filter>소스 파일\15. 약수, 배수와 소수 2</Filter>
     </ClCompile>
     <ClCompile Include="2485.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\15. 약수, 배수와 소수 2</Filter>
     </ClCompile>
     <ClCompile Include="4134.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\15. 약수, 배수와 소수 2</Filter>
+    </ClCompile>
+    <ClCompile Include="1929.cpp">
+      <Filter>소스 파일\15. 약수, 배수와 소수 2</Filter>
     </ClCompile>
     <ClCompile Include="4948.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\15. 약수, 배수와 소수 2</Filter>
+    </ClCompile>
+    <ClCompile Include="13241.cpp">
+      <Filter>소스 파일\15. 약수, 배수와 소수 2</Filter>
     </ClCompile>
     <ClCompile Include="17103.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\15. 약수, 배수와 소수 2</Filter>
+    </ClCompile>
+    <ClCompile Include="13909.cpp">
+      <Filter>소스 파일\15. 약수, 배수와 소수 2</Filter>
     </ClCompile>
     <ClCompile Include="28278.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\16. 스택, 큐, 덱</Filter>
+    </ClCompile>
+    <ClCompile Include="15439.cpp">
+      <Filter>소스 파일\19. 조합론</Filter>
+    </ClCompile>
+    <ClCompile Include="24723.cpp">
+      <Filter>소스 파일\19. 조합론</Filter>
+    </ClCompile>
+    <ClCompile Include="10872.cpp">
+      <Filter>소스 파일\19. 조합론</Filter>
+    </ClCompile>
+    <ClCompile Include="11050.cpp">
+      <Filter>소스 파일\19. 조합론</Filter>
+    </ClCompile>
+    <ClCompile Include="1010.cpp">
+      <Filter>소스 파일\19. 조합론</Filter>
+    </ClCompile>
+    <ClCompile Include="1037.cpp">
+      <Filter>소스 파일\20. 심화 2</Filter>
+    </ClCompile>
+    <ClCompile Include="2108.cpp">
+      <Filter>소스 파일\20. 심화 2</Filter>
+    </ClCompile>
+    <ClCompile Include="10870.cpp">
+      <Filter>소스 파일\21. 재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="10773.cpp">
+      <Filter>소스 파일\16. 스택, 큐, 덱</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
