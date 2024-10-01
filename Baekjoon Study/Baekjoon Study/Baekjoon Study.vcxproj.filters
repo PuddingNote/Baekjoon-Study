@@ -501,5 +501,8 @@
     <ClCompile Include="11866.cpp">
       <Filter>소스 파일\16. 스택, 큐, 덱</Filter>
     </ClCompile>
+    <ClCompile Include="28279.cpp">
+      <Filter>소스 파일\16. 스택, 큐, 덱</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
