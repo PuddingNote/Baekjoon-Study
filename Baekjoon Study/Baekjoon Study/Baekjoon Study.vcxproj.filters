@@ -510,5 +510,11 @@
     <ClCompile Include="24511.cpp">
       <Filter>소스 파일\16. 스택, 큐, 덱</Filter>
     </ClCompile>
+    <ClCompile Include="25192.cpp">
+      <Filter>소스 파일\20. 심화 2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
