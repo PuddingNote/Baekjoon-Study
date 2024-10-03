@@ -248,10 +248,10 @@
 </details>
 
 <details>
-  <summary>20. 심화 2 (2/5)</summary>
+  <summary>20. 심화 2 (3/5)</summary>
   <ul>
     <li>1037</li>
-    <li></li>
+    <li>25192</li>
     <li></li>
     <li>2108</li>
     <li></li>
