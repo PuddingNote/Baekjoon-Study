@@ -516,5 +516,8 @@
     <ClCompile Include="Sample.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="26069.cpp">
+      <Filter>소스 파일\20. 심화 2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
