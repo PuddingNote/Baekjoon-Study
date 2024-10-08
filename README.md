@@ -259,9 +259,9 @@
 </details>
 
 <details>
-  <summary>21. 재귀 (1/7)</summary>
+  <summary>21. 재귀 (2/7)</summary>
   <ul>
-    <li></li>
+    <li>27433</li>
     <li>10870</li>
     <li></li>
     <li></li>
