@@ -259,13 +259,13 @@
 </details>
 
 <details>
-  <summary>21. 재귀 (4/7)</summary>
+  <summary>21. 재귀 (5/7)</summary>
   <ul>
     <li>27433</li>
     <li>10870</li>
     <li>25501</li>
     <li>24060</li>
-    <li></li>
+    <li>4779</li>
     <li></li>
     <li></li>
   </ul>
