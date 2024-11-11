@@ -272,6 +272,20 @@
 </details>
 
 <details>
+  <summary>22. 백트래킹 (1/8)</summary>
+  <ul>
+    <li>15649</li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</details>
+
+<details>
   <summary>27. 이분 탐색 (1/7)</summary>
   <ul>
     <li></li>
