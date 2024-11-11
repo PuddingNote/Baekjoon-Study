@@ -70,6 +70,9 @@
     <Filter Include="소스 파일\21. 재귀">
       <UniqueIdentifier>{df184a39-c274-45af-a2f7-12e46c28a949}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\22. 백트래킹">
+      <UniqueIdentifier>{74060deb-406e-4f72-96bf-ffdf5ead9e7c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1000.cpp">
@@ -539,6 +542,9 @@
     </ClCompile>
     <ClCompile Include="11729.cpp">
       <Filter>소스 파일\21. 재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="15649.cpp">
+      <Filter>소스 파일\22. 백트래킹</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
